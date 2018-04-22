@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:layout_weight="1"
+    android:scrollbarStyle="outsideInset"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:text="@string/broken_needles"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/fragment_data_report_needle_refusal_details_broken_needles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:text="@string/bent_needles"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/fragment_data_report_needle_refusal_details_bent_needles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:text="@string/blunt_needles"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/fragment_data_report_needle_refusal_details_blunt_needles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:text="@string/time_consumed_issuing"
+            android:layout_margin="5dp"
+
+            />
+        <TextView
+            android:id="@+id/fragment_data_report_needle_refusal_details_time_consumed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.5"
+            style="?android:listSeparatorTextViewStyle"
+            android:textAlignment="center"
+            android:layout_margin="5dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fragment_data_report_needle_refusal_details_linear_layout"
+        android:layout_margin="10dp"
+        android:paddingBottom="30dp">
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>

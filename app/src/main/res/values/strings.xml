@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Needle Manager</string>
+    <string name="s_no">Sno.</string>
+    <string name="operator_id">Operator ID</string>
+    <string name="operator_name">Operator Name</string>
+    <string name="machine_id">Machine ID</string>
+    <string name="machine_type">Machine Type</string>
+    <string name="line">Line</string>
+    <string name="style_information">Style Information</string>
+    <string name="operation_name">Operation Name</string>
+    <string name="fabric_type">Fabric Type</string>
+    <string name="needle_to_be_procured">Needle to be procured</string>
+    <string name="size_of_needle">Size of the needle</string>
+    <string name="refused_needle_type">Refused Needle Type</string>
+    <string name="box_no">Box Number</string>
+    <string name="column_no">Column Number</string>
+    <string name="life_of_needle">Life of Needle</string>
+    <string name="time_of_day">Time of day</string>
+    <string name="issuing_time">Issuing Time</string>
+    <string name="date_of_procurement">Date of procurement</string>
+    <string name="date_of_replacement">Date of replacement</string>
+    <string name="time_of_replacement">Time of replacement</string>
+    <string name="time_of_procurement">Time of procurement</string>
+    <string name="machine_view">Machine details</string>
+    <string name="operator_view">Operator details</string>
+
+    <string name="search">Search</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="operator_details">Operator Details</string>
+    <string name="machine_details">Machine Details</string>
+    <string name="data_report">Data Report</string>
+    <string name="needle_logs">Needle Logs</string>
+    <string name="exit">Exit</string>
+
+    <string name="no_of_refusals">No of Refusals/Month</string>
+    <string name="style_with_most_refusals">Style with most Refusals:</string>
+    <string name="line_with_most_refusals">Line with most Refusals:</string>
+    <string name="time_consumed">Time consumed in Replacement/Procurement:</string>
+
+    <string name="broken_needles">Broken Needles:</string>
+    <string name="bent_needles">Bent Needles:</string>
+    <string name="blunt_needles">Blunt Needles:</string>
+    <string name="time_consumed_issuing">Time Consumed in Issuing</string>
+
+    <string-array name="data_report_selection_list">
+        <item>General</item>
+        <item>Refusals by Machine Type</item>
+        <item>Refusals by Operator</item>
+        <item>Graph of Broken,Blunt and Bent Needles</item>
+        <item>Needle Refusals according to Type and Size</item>
+    </string-array>
+</resources>

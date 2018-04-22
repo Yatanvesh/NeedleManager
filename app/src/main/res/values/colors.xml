@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d97cc</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#e040fb</color>
+    <color name="colorColumnBackground">#a6ebeb</color>
+    <color name="splash_background">#EFD4D4</color>
+    <color name="home_background">#dffffd</color>
+    <color name="home_background1">#bcc6cc</color>
+    <color name="home_background2">#f4d895</color>
+    <color name="home_title">#ff1744</color>
+    <color name="button_background">#7bccc2</color>
+</resources>

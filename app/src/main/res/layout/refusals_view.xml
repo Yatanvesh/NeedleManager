@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/refusals_view_key"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="0.5"
+        style="?android:listSeparatorTextViewStyle"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/refusals_view_value"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_weight="0.5"
+        style="?android:listSeparatorTextViewStyle"
+        />
+</LinearLayout>

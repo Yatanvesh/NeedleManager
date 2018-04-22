@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_report"
+        android:textAlignment="center"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/data_report_selection_list"
+        android:id="@+id/fragment_data_report_selector"
+        >
+
+    </Spinner>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fragment_data_report_container">
+        </FrameLayout>
+</LinearLayout>
